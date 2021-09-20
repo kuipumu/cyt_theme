@@ -1,0 +1,242 @@
+# Copyright (C) 2021 César Montilla
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: cyt 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cyt\n"
+"POT-Creation-Date: 2021-08-18T10:02:44+00:00\n"
+"PO-Revision-Date: 2021-08-18 06:03-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: cyt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Theme Name of the theme
+msgid "cyt"
+msgstr "cyt"
+
+#. Theme URI of the theme
+msgid "http://github.com/kuipumu/cyt-theme"
+msgstr "http://github.com/kuipumu/cyt-theme"
+
+#. Description of the theme
+msgid "CyT Wordpress Theme"
+msgstr "CyT Tema de Wordpress"
+
+#. Author of the theme
+msgid "César Montilla"
+msgstr "César Montilla"
+
+#. Author URI of the theme
+msgid "http://github.com/kuipumu"
+msgstr "http://github.com/kuipumu"
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Ups!, esa página no se puede encontrar."
+
+#: 404.php:28
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que no se encontró nada en esta ubicación. ¿Quizás probar uno de los "
+"enlaces a continuación o una búsqueda? "
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario sobre &ldquo;% 1 $s&rdquo; "
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s pensó en &ldquo;%2$s&rdquo; "
+msgstr[1] "%1$s pensamientos sobre &ldquo;%2$s&rdquo; "
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados. "
+
+#: footer.php:17
+msgid "https://kuipumu.gitlab.io/blog"
+msgstr "https://kuipumu.gitlab.io/blog"
+
+#. translators: %s: Creator name, i.e. John Doe.
+#: footer.php:20
+msgid "Designed by %s"
+msgstr "Diseñado por %s"
+
+#: footer.php:24
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:27
+msgid "Proudly powered by %s"
+msgstr "Con la tecnología de %s"
+
+#: functions.php:53
+msgid "Top Menu"
+msgstr "Menú superior "
+
+#: functions.php:54
+msgid "Primary Menu"
+msgstr "Menú principal "
+
+#: functions.php:55
+msgid "Secondary Menu"
+msgstr "Menú secundario"
+
+#: functions.php:125
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:127
+msgid "Add widgets here."
+msgstr "Agrega widgets aquí."
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: header.php:31
+msgid "Top navigation"
+msgstr "Navegación superior "
+
+#: header.php:47
+msgid "Primary navigation"
+msgstr "Navegación principal"
+
+#: header.php:74
+msgid "Secondary navigation"
+msgstr "Navegación secundaria "
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado el %s "
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s "
+
+#: inc/template-tags.php:76
+msgid "Read More"
+msgstr "Leer mas"
+
+#: inc/template-tags.php:96
+msgid "Author website"
+msgstr "Sitio web del autor "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:225
+msgid ", "
+msgstr ","
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:228
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:232
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:235
+msgid "Tagged %1$s"
+msgstr "Etiquetado  %1$s"
+
+#: inc/template-tags.php:241
+msgid "Author"
+msgstr "Autor"
+
+#: inc/template-tags.php:279
+msgid "Collaborators"
+msgstr "Colaboradores"
+
+#. translators: %s: post title
+#: inc/template-tags.php:323
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Dejar un comentario <span class=\"screen-reader-text\"> en %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:340
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#. Template Name of the theme
+msgid "Authors Page"
+msgstr "Página de autores "
+
+#. translators: %s: search query.
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+#: searchform.php:11
+msgid "Search"
+msgstr "Buscar"
+
+#: searchform.php:12
+msgid "Search..."
+msgstr "Buscar..."
+
+#: single.php:26
+msgid "Previous:"
+msgstr "Previo:"
+
+#: single.php:27
+msgid "Next:"
+msgstr "Próximo:"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nada Encontrado"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Listo para publicar su primera entrada? <a href=\"%1$s\">empiece aquí </a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo siento, pero nada coincide con los términos de búsqueda. Vuelva a "
+"intentarlo con algunas palabras clave diferentes. "
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no podemos encontrar lo que estás buscando. Quizás la búsqueda "
+"pueda ayudar. "
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:33 template-parts/content-search.php:42
+#: template-parts/content.php:42
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuar leyendo <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-page.php:46 template-parts/content-search.php:55
+#: template-parts/content.php:55
+msgid "Pages:"
+msgstr "Paginas:"
