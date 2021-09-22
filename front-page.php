@@ -132,7 +132,7 @@ get_header();
 										</a>
 										<header>
 											<h2>
-												<ahref="<?php the_permalink(); ?>">
+												<a href="<?php the_permalink(); ?>">
 													<?php the_title(); ?>
 												</a>
 											</h2>

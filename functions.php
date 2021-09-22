@@ -9,7 +9,7 @@
 
 if ( ! defined( '_CYT_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_CYT_VERSION', '1.0.1' );
+	define( '_CYT_VERSION', '1.0.2' );
 }
 
 if ( ! function_exists( 'cyt_setup' ) ) :
